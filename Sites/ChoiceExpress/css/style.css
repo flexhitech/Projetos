@@ -1,0 +1,377 @@
+/***************************
+	GLOBAL RESET
+****************************/	
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font,img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { 
+		margin: 0; 
+		padding: 0; 
+		border: 0; 
+		outline: 0; 
+		font-weight: inherit; 
+		font-style: inherit; 
+		font-size: 100%; 
+		font-family: inherit;  
+		}   
+
+body{  
+		margin:0px;
+		height:100%;
+		font:'AllerRegular';
+		background-image:url(../imagens/body.jpg);
+		}
+
+* html{
+		margin:0;
+		height:100%;
+		padding:0;
+		}
+
+
+@font-face {
+    font-family: 'AllerRegular';
+    src: url('aller_rg-webfont.eot');
+    src: url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_rg-webfont.woff') format('woff'),
+         url('aller_rg-webfont.ttf') format('truetype'),
+         url('aller_rg-webfont.svg#AllerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	
+/************************
+	BASIC STYLES
+*************************/
+.clear{
+		clear:both; 
+		}
+
+.rightalign{
+		float:right;
+		}
+
+.leftalign{ 
+		float:left;
+		}
+
+.textright{
+		text-align:right;
+		}
+
+.textleft{
+		text-align:left;
+		}
+a{
+		text-decoration:none;
+		color:#00919f;
+		}
+ 
+		a:hover{  
+			color:#777;
+			}
+	
+p{
+	margin:0 0 10px 0;
+	font:13px 'AllerRegular';
+	text-align:justify;
+	color:#000;
+	text-indent:10px;
+		}	
+		
+.txtcliente p{
+	margin:0 0 10px 0;
+	font:12px 'AllerRegular';
+	text-align:justify;
+	color:#000;
+	text-indent:10px;
+		}			
+.img_border{ 
+		padding:5px;
+		margin:10px 0;
+		border:1px solid #ccc;
+		}
+		
+
+/************************
+		HEADINGS
+*************************/	
+h1{
+		padding:0px;
+		color:#777;
+		font:normal 30px/32px  "Arial", Arial, Helvetica, sans-serif;
+		letter-spacing:-1px;
+		}
+
+h2{
+		color:#555;
+		font:11px 'AllerRegular';
+		letter-spacing:-1px;
+		margin:0 0 5px 0;
+		}
+	
+h3{
+		padding:0px;
+		color:#777;
+		font:normal 21px/24px "Lucida Sans", Arial, Helvetica, sans-serif;
+		margin-bottom:10px;
+		}
+
+h4{
+		padding: 0px;
+		color:#777;
+		font:normal 20px/26px "Lucida Sans", Arial, Helvetica, sans-serif;
+		}
+
+h5{
+		padding: 0px;
+		color:#777;
+		font:normal bold 16px/20px "Lucida Sans", Arial, Helvetica, sans-serif;
+		}
+	
+h6{
+		padding: 0px;
+		color:#777;
+		font:normal 11px/14px "Lucida Sans", Arial, Helvetica, sans-serif;
+		margin-bottom:10px;
+		}	
+
+/************************
+	HEAD
+*************************/	
+.header{
+		width:100%;
+		position:relative;
+		}
+		
+.logo{
+		margin:5px 0 0 8px;
+		}
+		
+.helpdesk{
+		float:right;
+		margin:43px 0 0 8px;
+		}
+
+/****************************
+	TOPSITE
+*****************************/
+.topsite{
+		margin:0;
+		padding:10px 0px;
+		width:auto;
+		height:160px;
+		/*background-image:url(../imagens/topo_site_1.png);*/
+		background-color:#FFF;
+		border-bottom: 1px dotted #000;
+}
+
+/************************
+	      MENU
+*************************/	
+/*Credits: CSSpplay */
+/*URL: http://www.cssplay.co.uk/menus/pro_two */
+
+.menu2 {padding:0 0 0 32px; margin-top:94px; list-style:none; height:35px; background:#fff url(../imagens/button1.png); position:relative; border:1px solid #000; border-width:0 1px; border-bottom:1px solid #444;}
+.menu2 li {float:left;}
+.menu2 li a {display:block; float:left; height:35px; line-height:35px; color:#fff; text-decoration:none; font-size:11px; font-family:Georgia, "Times New Roman", Times, serif, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 8px; cursor:pointer;}
+.menu2 li a b {float:left; display:block; padding:0 16px 0 8px;}
+.menu2 li.current a {color:#fff; background:url(../imagens/button3_1.png);}
+.menu2 li.current a b {background:url(../imagens/button3_1.png) no-repeat right top;}
+.menu2 li a:hover {color:#fff; background:#000 url(../imagens/button4_1.png);}
+.menu2 li a:hover b {background:url(../imagens/button4_1.png) no-repeat right top;}
+.menu2 li.current a:hover {color:#fff; background:#000 url(../imagens/button3_1.png); cursor:default;}
+.menu2 li.current a:hover b {background:url(../imagens/button3_1.png) no-repeat right top;}
+
+/**************************
+	       BANNER
+***************************/
+.banner{
+	width:958px;
+	height:200px;
+    background-image:url(../imagens/banner.png);
+	border-left: 1px dotted #999;
+    border-right: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+}
+
+
+/**************************
+	TWITTER BOX
+***************************/
+
+.twitter{
+		padding:10px 0 0 9px;
+		float:right;
+		}
+
+/**************************
+	IMGTOP BOX
+***************************/
+
+.imgtop{
+		padding:1px 0 0 0;
+		float:right;
+		}
+
+
+/**************************
+	SLOGAN BOX
+***************************/
+
+.slogan{
+		padding:20px 0 0 0;
+		}
+
+		.slogan p{
+				/* padding-top:8px; */
+				font-family:'AllerRegular';
+				font-size:15px;
+				color:#000;
+				}
+
+/***************************
+	     MAPA SITE
+****************************/ 
+.sitemapa{
+	width:940px;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.sitemapa p{
+    padding:8px;
+	font-family:'AllerRegular';
+	font-weight:bold;
+	font-size:10px;
+	color:#000;
+}
+
+/****************************
+	FOOTER
+*****************************/
+
+.footer{
+		margin:0;
+		width:100%;
+		height:100px;
+		background-image:url(../imagens/fundo_footer.png);
+		border-top:1px dotted #000;
+		position:absolute;
+		bottom:0;
+		}
+
+		.footer_left{
+				float:left;
+				}
+
+				.footer_left p{
+						margin-top:10px;
+						/*padding:15px;*/
+						font:'AllerRegular';
+						font-size:12px;
+						color:#FFF;
+						}
+					
+		.footer_right{
+				float:right;
+				}
+
+
+/****************************
+	FOOTER SERVICOS
+*****************************/
+
+.footer_s{
+		margin:0;
+		width:100%;
+		height:100px;
+		background-image:url(../imagens/fundo_footer.png);;
+		border-top:1px dotted #000;
+		position:absolute;
+		/*bottom:0; /*Desativar quando Entrar as outras Telas dos Sistemas */
+		}
+
+		.footer_s_left{
+				float:left;
+				}
+
+				.footer_s_left p{
+						padding:10px;
+						/*font:italic bold 12px "Georgia", Helvetica, sans-serif;*/
+						font:'AllerRegular';
+						font-size:15px;
+						color:#FFF;
+						}
+
+		.footer_s_right{
+				float:right;
+				}
+
+
+.subpages{
+	font:'AllerRegular';
+	font-size:15px;
+	line-height:2;
+}
+
+.homeserv{
+	width:160px;
+	height:250px;
+	margin-left:20px;
+	float:left;
+	border:1px dotted #CCC;
+	padding:15px;
+}
+    .homeserv a{font:'AllerRegular'; font-size:15px;}
+    .homeserv p{font:'AllerRegular'; font-size:12px;}
+	
+
+section, article, aside, header, footer, nav, dialog, figure {
+	display:block;
+}
+
+.txtcliente ul {
+	list-style: none;
+}
+ 
+.txtcliente ul li {
+	padding: 8px 15px;
+	margin: 10px 0;
+}
+ 
+.txtcliente ul li:nth-child(odd) {
+	background: rgba(50,50,50,0.1);
+}
+ 
+.txtcliente ul li:nth-child(odd):hover {
+	background: rgba(50,50,50,0.3);	
+}
+ 
+.txtcliente ul li:nth-child(even) {
+	background: rgba(50,50,50,0.3);
+}
+ 
+.txtcliente ul li:nth-child(even):hover {
+	background: rgba(50,50,50,0.5);
+}
+ 
+.txtcliente ul li:nth-child(3n+1) {
+	-webkit-transform:rotate(-0.6deg);
+	-moz-transform:rotate(-0.6deg);
+	transform:rotate(-0.6deg);
+}
+ 
+.txtcliente ul li:nth-child(3n+2) {
+	-webkit-transform:rotate(0.5deg);
+	-moz-transform:rotate(0.5deg);
+	transform:rotate(0.5deg);
+}
+ 
+.txtcliente ul li:nth-child(3n+3) {
+	-webkit-transform:rotate(0.2deg);
+	-moz-transform:rotate(0.2deg);
+	transform:rotate(0.2deg);
+}
+
