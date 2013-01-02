@@ -54,6 +54,12 @@
 	width: 960px;
 }
 
+.barra_menu {
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../imagens/header.png);
+}
+
 .content_left{
 	width:650px;
 	float:left;

@@ -16,7 +16,7 @@ body{
 		margin:0px;
 		height:100%;
 		font:'AllerRegular';
-		background-image:url(../imagens/body.jpg);
+		/*background-image:url(../imagens/body.jpg);*/
 		}
 
 * html{
@@ -160,8 +160,9 @@ h6{
 		padding:10px 0px;
 		width:auto;
 		height:160px;
-		/*background-image:url(../imagens/topo_site_1.png);*/
-		background-color:#FFF;
+		/*background-image:url(../imagens/fundo.jpg);*/
+		/*background-image:url(../imagens/bluebox.png);/*
+		/*background-color:#FFF;*/
 		border-bottom: 1px dotted #000;
 }
 

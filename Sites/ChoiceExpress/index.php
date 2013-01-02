@@ -36,48 +36,54 @@
              	<p>"Nós cuidamos do seu ambiente, e sua tranquilidade é o nosso negócio."</p> 
           </div>
           <!--end:Slogan -->
-          <!-- start:menu -->
-              <ul class="nav">
-                  <li><a href="#">Home</a></li>
-                  <li class="dropdown"><a href="#">Link 2</a>
-                  <ul>
-                      <li><a href="#">Level 1</a></li>
-                      <li><a href="#">Level 1</a></li>
-                      <li class="dropdown"><a href="#">Level 1</a>
+       </div>
+           <div class="barra_menu">
+                  <!-- start:menu -->
+                  <ul class="nav">
+                      <li><a href="#">Home</a></li>
+                      <li class="dropdown"><a href="#">Link 2</a>
                       <ul>
-                          <li><a href="#">Level 2</a></li>
-                          <li><a href="#">Level 2</a></li>
-                          <li><a href="#">Level 2</a></li>
-                          <li class="dropdown"><a href="#">Level 2</a>
+                          <li><a href="#">Level 1</a></li>
+                          <li><a href="#">Level 1</a></li>
+                          <li class="dropdown"><a href="#">Level 1</a>
                           <ul>
-                              <li><a href="#">Level 3</a></li>
-                              <li><a href="#">Level 3</a></li>
-                              <li><a href="#">Level 3</a></li>
-                              <li><a href="#">Level 3</a></li>
-                              <li><a href="#">Level 3</a></li>
+                              <li><a href="#">Level 2</a></li>
+                              <li><a href="#">Level 2</a></li>
+                              <li><a href="#">Level 2</a></li>
+                              <li class="dropdown"><a href="#">Level 2</a>
+                              <ul>
+                                  <li><a href="#">Level 3</a></li>
+                                  <li><a href="#">Level 3</a></li>
+                                  <li><a href="#">Level 3</a></li>
+                                  <li><a href="#">Level 3</a></li>
+                                  <li><a href="#">Level 3</a></li>
+                              </ul>
+                              </li>
+                              <li><a href="#">Level 2</a></li>
                           </ul>
                           </li>
-                          <li><a href="#">Level 2</a></li>
+                          <li><a href="#">Level 1</a></li>
+                          <li><a href="#">Level 1</a></li>
                       </ul>
                       </li>
-                      <li><a href="#">Level 1</a></li>
-                      <li><a href="#">Level 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                      <li><a href="#">Link 3</a></li>
+                      <li><a href="#">Link 4</a></li>
+                      <li><a href="#">Link 5</a></li>
                   </ul>
-                  </li>
-                  <li><a href="#">Link 2</a></li>
-                  <li><a href="#">Link 3</a></li>
-                  <li><a href="#">Link 4</a></li>
-                  <li><a href="#">Link 5</a></li>
-              </ul>
-          <!-- end:menu -->
+                  <!-- end:menu -->
+           </div>
+      </div>     
+</div>       
+       <!--    </div>
           <!--start:SiteMapa -->
           <!-- <div class="sitemapa">
           	<p>Você está aqui : </p>
           </div> -->
           <!--end:SiteMapa -->          
-  </div>   
+ <!-- </div>   
               <!--end:top container -->
-              </div>
+       <!--       </div>
 <!--end:top -->
 <!--start:banner -->
 <div class="container_16">
