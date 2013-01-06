@@ -4,7 +4,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 
-<title>&bull; AV2 &bull;</title>
+<title>&bull; Choice Express &bull;</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 <!-- Start menu css and js files here -->

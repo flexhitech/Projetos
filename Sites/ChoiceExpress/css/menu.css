@@ -12,7 +12,7 @@
 	display: block;
 	position: relative;
 	height: 34px;
-	width: 958px; /* CHANGE this if you want another width or remove it if you want the width of the container */
+	/*width: 958px; /* CHANGE this if you want another width or remove it if you want the width of the container */
 	margin-top:94px;
 	border-radius: 3px;
 	border: 1px solid #c1c1c1;
