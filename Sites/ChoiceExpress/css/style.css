@@ -17,7 +17,7 @@ body{
 		height:100%;
 		font:'AllerRegular';
 		background-image:url(../imagens/body-bg.jpg);
-		/*background-image:url(../imagens/body1.jpg);*/
+		/*background-image:url(../imagens/bg.jpg);*/
 		}
 
 * html{
@@ -171,7 +171,7 @@ h6{
 ***************************/
 .banner{
 	width:958px;
-	height:200px;
+	height:250px;
     background-image:url(../imagens/banner.png);
 	border-left: 1px dotted #999;
     border-right: 1px dotted #999;
@@ -270,7 +270,7 @@ h6{
 		background-image:url(../imagens/fundo.jpg);
 		border-top:1px dotted #000;
 		position:absolute;
-		/*bottom:0; /*Desativar quando Entrar as outras Telas dos Sistemas */
+		bottom:0; /*Desativar quando Entrar as outras Telas dos Sistemas */
 		}
 
 		.footer_s_left{

@@ -59,18 +59,17 @@
                   <!-- start:menu -->
                     <ul id="menu">
                         <li><a href="?pagina=home.php">Empresa</a></li>
-                        <li>
-                            <a href="?pagina=servicos.php">Serviços</a>
+                        <li><a href="#">Serviços</a></li>
+                            <!--<a href="?pagina=servicos.php">Serviços</a>
                             <ul>
                                 <li><a href="#">Serviços 1</a></li>
                                 <li><a href="#">Serviços 2</a></li>
                                 <li><a href="#">Serviços 3</a></li>
                                 <li><a href="#">Serviços 4</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li><a href="#">Clientes</a></li>
                         <li><a href="#">Contato</a></li>
-                        <li><a href="#">Rastreie sua Carga</a></li>
                     </ul>
                   <!-- end:menu -->
            </div>
@@ -102,12 +101,12 @@
     </div>
     <div class="content_right">
       <img src="imagens/noticias.png" alt="Notícias"/>
-      <a href="?pagina=terceirizacao.php#terc01" title="Clique aqui e continue lendo"><p>O que não se deve terceirizar?</p></a>
-      <p>A atividade-fim de uma empresa é a razão de existir dessa empresa...</p>
-      <a href="?pagina=terceirizacao.php#terc02" title="Clique aqui e continue lendo"><p>O que são os Terceirizados ?</p></a>
-      <p>Apesar das várias vantagens, a Terceirização deve ser praticada com cautela...</p>
-      <a href="?pagina=terceirizacao.php#terc03" title="Clique aqui e continue lendo"><p>O que é o processo de terceirização em uma organização ?</p></a>
-      <p>O processo de terceirização em uma organização deve levar em conta diversos fatores de interesse...</p>
+      <a href="#" title="Clique aqui e continue lendo"><p>xxxxxxxxxxxxxx</p></a>
+      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...</p>
+      <a href="#" title="Clique aqui e continue lendo"><p>xxxxxxxxxxxxxxxx</p></a>
+      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...</p>
+      <a href="#" title="Clique aqui e continue lendo"><p>xxxxxxxxxxxxxxxxxxxxxx</p></a>
+      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...</p>
     </div>
 </div>
 <div class="clear"></div>

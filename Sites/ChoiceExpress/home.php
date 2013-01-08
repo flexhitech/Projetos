@@ -4,7 +4,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 
-<title>&bull; AV2 &bull;</title>
+<title>&bull; Choice Express &bull;</title>
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <!-- Start menu css and js files here -->
@@ -21,19 +21,19 @@
 </head>
 <body>
   <div class="homeserv">
-     <a href="?pagina=servicos.php#serv01"><br/>Portaria</a>
-     <a href="?pagina=servicos.php#serv01"><img src="imagens/porteiro.png" alt="Portaria" title="Portaria" /></a>
-     <p>Executa atividades relacionadas  à fiscalização da propriedade. Etem a responsabilidade de estar atento a tudo o que acontece ao seu redor.</p> 
+     <a href="#"><br/>Servico 1</a>
+     <a href="#"><img src="imagens/porteiro.png" alt="Portaria" title="Portaria" /></a>
+     <p>XXXXXXXXXXXXXXXXXXX.</p> 
   </div>
   <div class="homeserv">
-     <a href="?pagina=servicos.php#serv02"><br/>Recepção</a>
-     <a href="?pagina=servicos.php#serv02"><img src="imagens/recepcionaista.png" alt="Recepção" title="Recepção" /></a> 
-     <p>Recepciona, controla e encaminha visitantes ao local  desejado. Responde perguntas gerais sobre a empresa, ou direciona a quem possa responder.</p> 
+     <a href="#"><br/>Servico 2</a>
+     <a href="#"><img src="imagens/recepcionaista.png" alt="Recepção" title="Recepção" /></a> 
+     <p>XXXXXXXXXXXXXXXXXXX.</p> 
   </div>
   <div class="homeserv">
-     <a href="?pagina=servicos.php#serv03"><br/>Zelador</a>
-     <a href="?pagina=servicos.php#serv03"><img src="imagens/zelador.png" alt="Zelador" title="Zelador"/></a>
-     <p>AV2 Service disponibiliza profissionais treinados e qualificados para a prestação de serviços com maior eficiência  para nossos clientes.</p> 
+     <a href="#"><br/>Servico 3</a>
+     <a href="#"><img src="imagens/zelador.png" alt="Zelador" title="Zelador"/></a>
+     <p>XXXXXXXXXXXXXXXXXXX.</p> 
   </div>
 </body>
 </html>
