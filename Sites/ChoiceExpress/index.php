@@ -114,8 +114,9 @@
 <div class="footer_s">
    <div class="container_16">
      <div class="footer_left">
+            <p id="copy"><span>&copy; Copyright 2013 todos os direitos reservados a</span> Choice Express <span>Serviços de Entregas Rápidas</span></p>
+              <!--<br>&copy; Copyright 2013 todos os direitos reservados a Choice Express Serviços de Entregas Rápidas.</br> -->
             <p>
-              <br>&copy; Copyright 2013 todos os direitos reservados a Choice Express Entregas Rápidas Ltda.</br>
               <br>Estrada do Galeão, 2.879 - 2º Andar - Sala 208 - Ilha do Governador - Rio de Janeiro/RJ</br>
               <br>Telefones:(21)2462-1525 / (21)2462-1930</br>
             </p>

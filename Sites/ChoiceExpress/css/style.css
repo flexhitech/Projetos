@@ -236,7 +236,7 @@ h6{
 		background-image:url(../imagens/fundo.jpg);
 		border-top:1px dotted #000;
 		position:absolute;
-		bottom:0;
+		/*bottom:0;*/
 		}
 
 		.footer_left{
@@ -256,7 +256,12 @@ h6{
 		.footer_right{
 				float:right;
 				}
-
+#copy { 
+	color: #777; font-size:15px; 
+}
+#copy span { 
+	color: #999; 
+}
 
 /****************************
 	FOOTER SERVICOS
@@ -270,7 +275,7 @@ h6{
 		background-image:url(../imagens/fundo.jpg);
 		border-top:1px dotted #000;
 		position:absolute;
-		bottom:0; /*Desativar quando Entrar as outras Telas dos Sistemas */
+		/*bottom:0; /*Desativar quando Entrar as outras Telas dos Sistemas */
 		}
 
 		.footer_s_left{
