@@ -10,7 +10,7 @@
 <!-- Start menu css and js files here -->
 <link rel="stylesheet" type="text/css" media="all" href="css/960.css"/>
 <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/menu1.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/menu.css" />
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/funcoes.js"></script>
@@ -37,40 +37,47 @@
 </head>
 <body>
 <div class="topsite">
-  <div class="img_top_slogan">
+  <!--<div class="img_top_slogan">
       <img src="imagens/img_topo.png" alt="Entre em Contato" class="pngfix logo"/> 
-  </div>
+  </div> -->
 <!--start:top -->
       <div class="container_16">
 		  <!--start:logo -->
 		  <div class="grid_5"> 
-				<!--<img src="imagens/logo_choice.png" alt="Choice Express" class="pngfix logo"/>-->
-                <a href="?pagina=home.php"><img src="imagens/logo_choice.png" alt="Choice Express" class="pngfix logo"/></a>
+             <a href="?pagina=home.php"><img src="imagens/logo_choice.png" alt="Choice Express" class="pngfix logo"/></a>
           </div>
           <!--end:logo -->
           <!--start:Slogan -->
-          <div class="slogan">
-             	<img src="imagens/slogan.png" alt="Slogan" class="pngfix logo"/>
-                <!--<p>Excelência em entregas rápidas.</p> -->
-          </div>
+          <!--<div class="slogan">
+             	<img src="imagens/slogan2.png" alt="Slogan" class="pngfix logo"/>
+          </div> 
           <!--end:Slogan -->
        </div>
            <div class="container_16">
                   <!-- start:menu -->
-                    <ul id="menu">
-                        <li><a href="?pagina=home.php">Empresa</a></li>
-                        <li><a href="#">Serviços</a></li>
-                            <!--<a href="?pagina=servicos.php">Serviços</a>
-                            <ul>
-                                <li><a href="#">Serviços 1</a></li>
-                                <li><a href="#">Serviços 2</a></li>
-                                <li><a href="#">Serviços 3</a></li>
-                                <li><a href="#">Serviços 4</a></li>
-                            </ul>
-                        </li> -->
-                        <li><a href="#">Clientes</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
+                  <div id='cssmenu'>
+                  <ul>
+                     <li><a href='#'><span>Home</span></a></li>
+                     <li class='has-sub '><a href='#'><span>Products</span></a>
+                        <ul>
+                           <li class='has-sub '><a href='#'><span>Product 1</span></a>
+                              <ul>
+                                 <li><a href='#'><span>Sub Product</span></a></li>
+                                 <li><a href='#'><span>Sub Product</span></a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub '><a href='#'><span>Product 2</span></a>
+                              <ul>
+                                 <li><a href='#'><span>Sub Product</span></a></li>
+                                 <li><a href='#'><span>Sub Product</span></a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href='#'><span>About</span></a></li>
+                     <li><a href='#'><span>Contact</span></a></li>
+                  </ul>
+                  </div>
                   <!-- end:menu -->
            </div>
       </div>     
