@@ -1,0 +1,10 @@
+.gradient(@from, @to){
+    background: (@from+@to)/2;
+    @svgG: e(%('url(gradient.php?from=%d&to=%d)', @from, @to));
+    @svgGradient: e(`this.svgG.toJS().replace(/#/g, '')`); //svg IE9
+    background: @svgGradient;
+    background: e(%('-webkit-gradient(linear, 0% 0%, 0% 100%, from(%d), to(%d))', @from, @to));
+    background: e(%('-moz-linear-gradient(top, %d, %d)', @from, @to));
+    -pie-background: e(%('linear-gradient(%d, %d)', @from, @to));
+    .pie();
+}
